@@ -1,0 +1,11 @@
+[
+    'https://ethereum-rpc.publicnode.com',
+    'https://rpc.ankr.com/eth',
+    'https://1rpc.io/eth',
+    'https://eth.llamarpc.com',
+    'https://eth-pokt.nodies.app',
+    'https://eth.drpc.org',
+    'https://rpc.mevblocker.io',
+    'https://go.getblock.io/aefd01aa907c4805ba3c00a9e5b48c6b',
+    'https://endpoints.omniatech.io/v1/eth/mainnet/public'
+]
