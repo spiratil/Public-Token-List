@@ -1,0 +1,13 @@
+{
+    "chainID": 42161,
+    "currency": "ETH",
+    "rpcs": [
+        "https://base-rpc.publicnode.com",
+        "https://1rpc.io/base",
+        "https://rpc.ankr.com/base",
+        "https://mainnet.base.org",
+        "https://base.llamarpc.com",
+        "https://base-pokt.nodies.app",
+        "https://base-rpc.publicnode.com"
+    ]
+}

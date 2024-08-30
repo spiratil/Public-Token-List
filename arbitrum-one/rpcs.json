@@ -1,0 +1,11 @@
+{
+    "chainID": 8453,
+    "currency": "ETH",
+    "rpcs": [
+        "https://42161.rpc.thirdweb.com",
+        "https://arb1.arbitrum.io/rpc",
+        "https://arbitrum-one-rpc.publicnode.com",
+        "https://1rpc.io/arb",
+        "https://rpc.ankr.com/arbitrum"
+    ]
+}
