@@ -1,6 +1,6 @@
 {
     "id": "ethereum",
-    "symbol": "eth",
+    "sym": "eth",
     "name": "Ethereum",
     "decimals": 18
 }
