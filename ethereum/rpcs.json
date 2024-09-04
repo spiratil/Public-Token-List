@@ -1,6 +1,44 @@
 {
-    "chainID": 1,
-    "currency": "ETH",
+    "query": {
+        "nativeBal": {
+            "id": 1,
+            "jsonrpc": "2.0",
+            "method": "eth_getBalance",
+            "params": [
+                null,
+                "latest"
+            ]
+        },
+        "tokenBal": {
+            "method": "eth_call",
+            "params": [
+                {
+                    "to": null,
+                    "data": "0x70a08231000000000000000000000000"
+                },
+                "latest"
+            ]
+        },
+        "decimals": {
+            "method": "eth_call",
+            "params": [
+                {
+                    "to": null,
+                    "data": "0x313ce567000000000000000000000000"
+                },
+                "latest"
+            ]
+        }
+    },
+    "options": {
+        "method": "POST",
+        "headers": {
+            "accept": "application/json",
+            "content-type": "application/json"
+        },
+        "contentType": "application/json",
+        "payload": null
+    },
     "rpcs": [
         "https://1.rpc.thirdweb.com",
         "https://ethereum-rpc.publicnode.com",

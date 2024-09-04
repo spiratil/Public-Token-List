@@ -4,9 +4,9 @@
       "reg": "^0x[a-fA-F0-9]{40}$",
       "name": "EVM",
       "net": {
-        "ethereum": { "id": "ethereum", "sym": "eth", "name": "Ethereum", "dec": 18,
+        "ethereum": { "id": "ethereum", "sym": "ETH", "name": "Ethereum", "dec": 18,
                     "logo": "https://assets.coingecko.com/asset_platforms/images/279/standard/ethereum.png" },
-        "base":     { "id": "ethereum", "sym": "eth", "name": "Ethereum", "dec": 18,
+        "base":     { "id": "ethereum", "sym": "ETH", "name": "Ethereum", "dec": 18,
                     "logo": "https://assets.coingecko.com/asset_platforms/images/131/small/base-network.png?1720533039" }
       }
     },
@@ -14,7 +14,7 @@
       "logo": "https://assets.coingecko.com/asset_platforms/images/127/small/ordinals.png",
       "reg": "^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$",
       "id": "bitcoin",
-      "sym": "btc",
+      "sym": "BTC",
       "name": "Bitcoin",
       "dec": 8
     },
@@ -22,7 +22,7 @@
       "logo": "https://assets.coingecko.com/asset_platforms/images/12171/standard/polkadot.jpeg",
       "reg": "^1[0-9a-zA-Z]{47}",
       "id": "polkadot",
-      "sym": "dot",
+      "sym": "DOT",
       "name": "Polkadot",
       "dec": 10
     },
@@ -30,7 +30,7 @@
       "logo": "https://imagedelivery.net/IEMzXmjRvW0g933AN5ejrA/wwwnotionso-image-prod-files-secures3us-west-2amazonawscom-18664812-e45a-49f6-af50-c7c6347a4f3c-247b7d47-396a-49b6-969a-7759d3755ed5-runestonesjpeg/public",
       "reg": "^bc1p[a-z0-9]{58}",
       "id": "bitcoin",
-      "sym": "btc",
+      "sym": "BTC",
       "name": "Bitcoin",
       "dec": 8
     },
@@ -38,7 +38,7 @@
       "logo": "https://assets.coingecko.com/asset_platforms/images/5/standard/solana.png",
       "reg": "^[1-9A-HJ-NP-Za-km-z]{32,44}$",
       "id": "solana",
-      "sym": "sol",
+      "sym": "SOL",
       "name": "Solana",
       "dec": 9
     },
@@ -46,7 +46,7 @@
       "logo": "https://assets.coingecko.com/coins/images/11093/standard/sora_logo_cg_white.png",
       "reg": "^cn[a-zA-Z0-9]{46}",
       "id": "sora",
-      "sym": "xor",
+      "sym": "XOR",
       "name": "Sora",
       "dec": 18
     },
@@ -54,7 +54,7 @@
       "logo": "https://assets.coingecko.com/asset_platforms/images/142/small/tonblockchain.jpeg",
       "reg": "^(EQ|UQ)[A-Za-z0-9_-]{46}$",
       "id": "the-open-network",
-      "sym": "ton",
+      "sym": "TON",
       "name": "Toncoin",
       "dec": 9
     },
@@ -62,7 +62,7 @@
       "logo": "https://assets.coingecko.com/asset_platforms/images/1094/standard/TRON_logo.png",
       "reg": "T^[A-Za-z1-9]{33}",
       "id": "tron",
-      "sym": "trx",
+      "sym": "TRX",
       "name": "TRON",
       "dec": 18
     }
