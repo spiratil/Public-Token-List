@@ -10,6 +10,8 @@
             ]
         },
         "tokenBal": {
+            "id": 1,
+            "jsonrpc": "2.0",
             "method": "eth_call",
             "params": [
                 {
@@ -20,6 +22,8 @@
             ]
         },
         "decimals": {
+            "id": 1,
+            "jsonrpc": "2.0",
             "method": "eth_call",
             "params": [
                 {
