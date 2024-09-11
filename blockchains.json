@@ -7,7 +7,7 @@
         "ethereum": { "chainName": "Ethereum", "id": "ethereum", "sym": "ETH", "name": "Ethereum", "dec": 18,
                     "logo": "https://assets.coingecko.com/asset_platforms/images/279/standard/ethereum.png" },
         "base":     { "chainName": "Base", "id": "ethereum", "sym": "ETH", "name": "Ethereum", "dec": 18,
-                    "logo": "https://assets.coingecko.com/asset_platforms/images/131/small/base-network.png?1720533039" }
+                    "logo": "https://assets.coingecko.com/asset_platforms/images/131/small/base-network.png" }
       }
     },
     "bitcoin": {
@@ -59,7 +59,7 @@
       "dec": 9
     },
     "tron": {
-      "logo": "https://assets.coingecko.com/asset_platforms/images/1094/standard/TRON_logo.png",
+      "logo": "https://logowik.com/content/uploads/images/tron-trx-icon3386.logowik.com.webp",
       "reg": "T^[A-Za-z1-9]{33}",
       "id": "tron",
       "sym": "TRX",

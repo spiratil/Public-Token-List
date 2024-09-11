@@ -1,11 +1,47 @@
 {
     "query": {
+        "decimals": {
+            "id": 1,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+                {
+                    "to": null,
+                    "data": "0x313ce567000000000000000000000000"
+                },
+                "latest"
+            ]
+        },
+        "name": {
+            "id": 1,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+                {
+                    "to": null,
+                    "data": "0x06fdde03000000000000000000000000"
+                },
+                "latest"
+            ]
+        },
         "nativeBal": {
             "id": 1,
             "jsonrpc": "2.0",
             "method": "eth_getBalance",
             "params": [
                 null,
+                "latest"
+            ]
+        },
+        "symbol": {
+            "id": 1,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+                {
+                    "to": null,
+                    "data": "0x95d89b41000000000000000000000000"
+                },
                 "latest"
             ]
         },
@@ -17,18 +53,6 @@
                 {
                     "to": null,
                     "data": "0x70a08231000000000000000000000000"
-                },
-                "latest"
-            ]
-        },
-        "decimals": {
-            "id": 1,
-            "jsonrpc": "2.0",
-            "method": "eth_call",
-            "params": [
-                {
-                    "to": null,
-                    "data": "0x313ce567000000000000000000000000"
                 },
                 "latest"
             ]
