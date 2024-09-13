@@ -4,9 +4,9 @@
       "reg": "^0x[a-fA-F0-9]{40}$",
       "name": "EVM",
       "net": {
-        "ethereum": { "chainName": "Ethereum", "id": "ethereum", "sym": "ETH", "name": "Ethereum", "dec": 18,
+        "ethereum": { "name": "Ethereum", "id": "ethereum", "sym": "ETH", "natName": "Ethereum", "dec": 18,
                     "logo": "https://assets.coingecko.com/asset_platforms/images/279/standard/ethereum.png" },
-        "base":     { "chainName": "Base", "id": "ethereum", "sym": "ETH", "name": "Ethereum", "dec": 18,
+        "base":     { "name": "Base", "id": "ethereum", "sym": "ETH", "natName": "Ethereum", "dec": 18,
                     "logo": "https://assets.coingecko.com/asset_platforms/images/131/small/base-network.png" }
       }
     },
