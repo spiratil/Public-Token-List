@@ -7,11 +7,11 @@
         "ethereum": { "name": "Ethereum", "id": "ethereum", "sym": "ETH", "natName": "Ethereum", "dec": 18,
                     "logo": "https://assets.coingecko.com/asset_platforms/images/279/standard/ethereum.png" },
         "base":     { "name": "Base", "id": "ethereum", "sym": "ETH", "natName": "Ethereum", "dec": 18,
-                    "logo": "https://assets.coingecko.com/asset_platforms/images/131/small/base-network.png" }
+                    "logo": "https://assets.coingecko.com/asset_platforms/images/131/standard/base-network.png" }
       }
     },
     "bitcoin": {
-      "logo": "https://assets.coingecko.com/asset_platforms/images/127/small/ordinals.png",
+      "logo": "https://assets.coingecko.com/asset_platforms/images/127/standard/ordinals.png",
       "reg": "^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$",
       "id": "bitcoin",
       "sym": "BTC",
@@ -51,7 +51,7 @@
       "dec": 18
     },
     "ton": {
-      "logo": "https://assets.coingecko.com/asset_platforms/images/142/small/tonblockchain.jpeg",
+      "logo": "https://assets.coingecko.com/asset_platforms/images/142/standard/tonblockchain.jpeg",
       "reg": "^(EQ|UQ)[A-Za-z0-9_-]{46}$",
       "id": "the-open-network",
       "sym": "TON",
@@ -59,7 +59,7 @@
       "dec": 9
     },
     "tron": {
-      "logo": "https://logowik.com/content/uploads/images/tron-trx-icon3386.logowik.com.webp",
+      "logo": "https://assets.coingecko.com/asset_platforms/images/1094/standard/TRON_LOGO.png",
       "reg": "T^[A-Za-z1-9]{33}",
       "id": "tron",
       "sym": "TRX",
