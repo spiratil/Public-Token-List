@@ -32,16 +32,16 @@
                     "logo": "https://assets.coingecko.com/asset_platforms/images/140/standard/mantle.jpeg" },
         "metis-andromeda": { "name": "Metis Andromeda", "id": "metis-token", "sym": "METIS", "natName": "Metis", "dec": 18,
                     "logo": "https://assets.coingecko.com/asset_platforms/images/54/standard/metis.png" },
-        "mode": { "name": "Metis Andromeda", "id": "ethereum", "sym": "ETH", "natName": "Ethereum", "dec": 18,
+        "mode": { "name": "Mode", "id": "ethereum", "sym": "ETH", "natName": "Ethereum", "dec": 18,
                     "logo": "https://assets.coingecko.com/asset_platforms/images/191/standard/mode.jpeg" },
         "opbnb": { "name": "opBNB", "id": "binancecoin", "sym": "BNB", "natName": "BNB", "dec": 18,
                     "logo": "https://assets.coingecko.com/asset_platforms/images/144/standard/opbnb.png" },
         "optimistic-ethereum": { "name": "Optimism", "id": "ethereum", "sym": "ETH", "natName": "Ethereum", "dec": 18,
                     "logo": "https://assets.coingecko.com/asset_platforms/images/41/standard/optimism.png" },
-        "polygon-zkevm": { "name": "Polygon zkEVM", "id": "ethereum", "sym": "ETH", "natName": "Ethereum", "dec": 18,
-                    "logo": "https://assets.coingecko.com/asset_platforms/images/122/standard/polygonzkevm.jpg" },
         "polygon-pos": { "name": "Polygon POS", "id": "polygon-ecosystem-token", "sym": "POL", "natName": "POL", "dec": 18,
                     "logo": "https://assets.coingecko.com/asset_platforms/images/15/standard/polygon_pos.png" },
+        "polygon-zkevm": { "name": "Polygon zkEVM", "id": "ethereum", "sym": "ETH", "natName": "Ethereum", "dec": 18,
+                    "logo": "https://assets.coingecko.com/asset_platforms/images/122/standard/polygonzkevm.jpg" },
         "scroll": { "name": "Scroll", "id": "ethereum", "sym": "ETH", "natName": "Ethereum", "dec": 18,
                     "logo": "https://assets.coingecko.com/asset_platforms/images/153/standard/scroll.jpeg" },
         "telos": { "name": "TELOS", "id": "telos", "sym": "TLOS", "natName": "TELOS", "dec": 18,
@@ -52,10 +52,10 @@
                     "logo": "https://assets.coingecko.com/asset_platforms/images/11062/standard/Aatar_green_white.png" },
         "zetachain": { "name": "ZetaChain", "id": "zetachain", "sym": "ZETA", "natName": "ZetaChain", "dec": 18,
                     "logo": "https://assets.coingecko.com/asset_platforms/images/178/standard/zeta.jpeg" },
-        "zora-network": { "name": "Zora", "id": "ethereum", "sym": "ETH", "natName": "Ethereum", "dec": 18,
-                    "logo": "https://assets.coingecko.com/asset_platforms/images/196/standard/zora.jpeg" },
         "zksync": { "name": "ZKsync", "id": "ethereum", "sym": "ETH", "natName": "Ethereum", "dec": 18,
-                    "logo": "https://assets.coingecko.com/asset_platforms/images/121/standard/zksync.jpeg" }
+                    "logo": "https://assets.coingecko.com/asset_platforms/images/121/standard/zksync.jpeg" },
+        "zora-network": { "name": "Zora", "id": "ethereum", "sym": "ETH", "natName": "Ethereum", "dec": 18,
+                    "logo": "https://assets.coingecko.com/asset_platforms/images/196/standard/zora.jpeg" }
       }
     },
     "bitcoin": {
