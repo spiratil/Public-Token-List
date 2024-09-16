@@ -1,7 +1,31 @@
 {
     "query": {
+        "decimals": {
+            "id": 42161,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+                {
+                    "to": null,
+                    "data": "0x313ce567000000000000000000000000"
+                },
+                "latest"
+            ]
+        },
+        "name": {
+            "id": 42161,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+                {
+                    "to": null,
+                    "data": "0x06fdde03000000000000000000000000"
+                },
+                "latest"
+            ]
+        },
         "nativeBal": {
-            "id": 8453,
+            "id": 42161,
             "jsonrpc": "2.0",
             "method": "eth_getBalance",
             "params": [
@@ -9,26 +33,26 @@
                 "latest"
             ]
         },
+        "symbol": {
+            "id": 42161,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+                {
+                    "to": null,
+                    "data": "0x95d89b41000000000000000000000000"
+                },
+                "latest"
+            ]
+        },
         "tokenBal": {
-            "id": 8453,
+            "id": 42161,
             "jsonrpc": "2.0",
             "method": "eth_call",
             "params": [
                 {
                     "to": null,
                     "data": "0x70a08231000000000000000000000000"
-                },
-                "latest"
-            ]
-        },
-        "decimals": {
-            "id": 8453,
-            "jsonrpc": "2.0",
-            "method": "eth_call",
-            "params": [
-                {
-                    "to": null,
-                    "data": "0x313ce567000000000000000000000000"
                 },
                 "latest"
             ]
@@ -45,9 +69,20 @@
     },
     "rpcs": [
         "https://42161.rpc.thirdweb.com",
+        "https://api.stateless.solutions/arbitrum-one/v1/demo",
+        "https://arbitrum-one.public.blastapi.io",
         "https://arb1.arbitrum.io/rpc",
-        "https://arbitrum-one-rpc.publicnode.com",
-        "https://1rpc.io/arb",
-        "https://rpc.ankr.com/arbitrum"
+        "https://arbitrum.drpc.org",
+        "https://arbitrum.blockpi.network/v1/rpc/public",
+        "https://rpc.ankr.com/arbitrum",
+        "https://arb-mainnet.g.alchemy.com/v2/demo",
+        "https://arbitrum.blockpi.network/v1/rpc/public",
+        "https://arb1.croswap.com/rpc",
+        "https://arbitrum.getblock.io/api_key/mainnet",
+        "https://arbitrum-mainnet.infura.io/v3",
+        "https://g.w.lavanet.xyz:443/gateway/arb1/rpc-http/f7ee0000000000000000000000000000",
+        "https://endpoints.omniatech.io/v1/arbitrum/one/public",
+        "https://arbitrum.api.onfinality.io/public",
+        "https://arb-mainnet-public.unifra.io"
     ]
 }

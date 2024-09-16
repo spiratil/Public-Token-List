@@ -1,5 +1,82 @@
 {
-  "query": {},
-  "options": {},
-  "rpcs": []
+  "query": {
+      "decimals": {
+          "id": 40,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+              {
+                  "to": null,
+                  "data": "0x313ce567000000000000000000000000"
+              },
+              "latest"
+          ]
+      },
+      "name": {
+          "id": 40,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+              {
+                  "to": null,
+                  "data": "0x06fdde03000000000000000000000000"
+              },
+              "latest"
+          ]
+      },
+      "nativeBal": {
+          "id": 40,
+          "jsonrpc": "2.0",
+          "method": "eth_getBalance",
+          "params": [
+              null,
+              "latest"
+          ]
+      },
+      "symbol": {
+          "id": 140,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+              {
+                  "to": null,
+                  "data": "0x95d89b41000000000000000000000000"
+              },
+              "latest"
+          ]
+      },
+      "tokenBal": {
+          "id": 40,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+              {
+                  "to": null,
+                  "data": "0x70a08231000000000000000000000000"
+              },
+              "latest"
+          ]
+      }
+  },
+  "options": {
+      "method": "POST",
+      "headers": {
+          "accept": "application/json",
+          "content-type": "application/json"
+      },
+      "contentType": "application/json",
+      "payload": null
+  },
+  "rpcs": [
+      "https://40.rpc.thirdweb.com",
+      "https://telos.drpc.org",
+      "https://mainnet.telos.net/evm",
+      "https://rpc3.us.telos.net/evm",
+      "https://evm.telos.detroitledger.tech/evm",
+      "https://mainnet-us.telos.net/evm",
+      "https://mainnet-asia.telos.net/evm",
+      "https://1rpc.io/telos/evm",
+      "https://telos.drpc.org",
+      "https://mainnet15.telos.net/evm"
+  ]
 }

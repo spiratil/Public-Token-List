@@ -1,5 +1,92 @@
 {
-  "query": {},
-  "options": {},
-  "rpcs": []
+  "query": {
+      "decimals": {
+          "id": 137,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+              {
+                  "to": null,
+                  "data": "0x313ce567000000000000000000000000"
+              },
+              "latest"
+          ]
+      },
+      "name": {
+          "id": 137,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+              {
+                  "to": null,
+                  "data": "0x06fdde03000000000000000000000000"
+              },
+              "latest"
+          ]
+      },
+      "nativeBal": {
+          "id": 137,
+          "jsonrpc": "2.0",
+          "method": "eth_getBalance",
+          "params": [
+              null,
+              "latest"
+          ]
+      },
+      "symbol": {
+          "id": 137,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+              {
+                  "to": null,
+                  "data": "0x95d89b41000000000000000000000000"
+              },
+              "latest"
+          ]
+      },
+      "tokenBal": {
+          "id": 137,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+              {
+                  "to": null,
+                  "data": "0x70a08231000000000000000000000000"
+              },
+              "latest"
+          ]
+      }
+  },
+  "options": {
+      "method": "POST",
+      "headers": {
+          "accept": "application/json",
+          "content-type": "application/json"
+      },
+      "contentType": "application/json",
+      "payload": null
+  },
+  "rpcs": [
+      "https://137.rpc.thirdweb.com",
+      "https://polygon-bor-rpc.publicnode.com",
+      "https://1rpc.io/matic",
+      "https://polygon-mainnet.g.alchemy.com/v2/demo",
+      "https://rpc.ankr.com/polygon",
+      "https://polygon-mainnet.public.blastapi.io",
+      "https://polygon.blockpi.network/v1/rpc/public",
+      "https://polygon.rpc.blxrbdn.com",
+      "https://matic-mainnet-archive-rpc.bwarelabs.com",
+      "https://matic-mainnet-full-rpc.bwarelabs.com",
+      "https://matic-mainnet.chainstacklabs.com",
+      "https://g.w.lavanet.xyz:443/gateway/polygon1/rpc-http/f7ee0000000000000000000000000000",
+      "https://polygon.llamarpc.com",
+      "https://rpc-mainnet.matic.network",
+      "https://rpc-mainnet.maticvigil.com",
+      "https://endpoints.omniatech.io/v1/matic/mainnet/public",
+      "https://polygon.api.onfinality.io/public",
+      "https://poly-rpc.gateway.pokt.network",
+      "https://polygon-rpc.com",
+      "https://polygon-bor.publicnode.com"
+  ]
 }

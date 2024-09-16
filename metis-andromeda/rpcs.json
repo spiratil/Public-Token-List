@@ -1,5 +1,78 @@
 {
-  "query": {},
-  "options": {},
-  "rpcs": []
+  "query": {
+      "decimals": {
+          "id": 1088,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+              {
+                  "to": null,
+                  "data": "0x313ce567000000000000000000000000"
+              },
+              "latest"
+          ]
+      },
+      "name": {
+          "id": 1088,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+              {
+                  "to": null,
+                  "data": "0x06fdde03000000000000000000000000"
+              },
+              "latest"
+          ]
+      },
+      "nativeBal": {
+          "id": 1088,
+          "jsonrpc": "2.0",
+          "method": "eth_getBalance",
+          "params": [
+              null,
+              "latest"
+          ]
+      },
+      "symbol": {
+          "id": 1088,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+              {
+                  "to": null,
+                  "data": "0x95d89b41000000000000000000000000"
+              },
+              "latest"
+          ]
+      },
+      "tokenBal": {
+          "id": 1088,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+              {
+                  "to": null,
+                  "data": "0x70a08231000000000000000000000000"
+              },
+              "latest"
+          ]
+      }
+  },
+  "options": {
+      "method": "POST",
+      "headers": {
+          "accept": "application/json",
+          "content-type": "application/json"
+      },
+      "contentType": "application/json",
+      "payload": null
+  },
+  "rpcs": [
+      "https://1088.rpc.thirdweb.com",
+      "https://metis.drpc.org",
+      "https://andromeda.metis.io/?owner=1088",
+      "https://metis-mainnet.public.blastapi.io",
+      "https://metis.api.onfinality.io/public",
+      "https://metis-pokt.nodies.app"
+  ]
 }

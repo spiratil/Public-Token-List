@@ -44,18 +44,19 @@
                     "logo": "https://assets.coingecko.com/asset_platforms/images/41/standard/optimism.png" },
         "scroll": { "name": "Scroll", "id": "ethereum", "sym": "ETH", "natName": "Ethereum", "dec": 18,
                     "logo": "https://assets.coingecko.com/asset_platforms/images/153/standard/scroll.jpeg" },
-        "starknet": { "name": "Starknet", "id": "starknet", "sym": "STRK", "natName": "Starknet", "dec": 18,
-                    "logo": "https://assets.coingecko.com/asset_platforms/images/151/standard/starknet.png" },
         "telos": { "name": "TELOS", "id": "telos", "sym": "TLOS", "natName": "TELOS", "dec": 18,
                     "logo": "https://assets.coingecko.com/asset_platforms/images/7588/standard/TLOS_200.png" },
         "x-layer": { "name": "X-Layer", "id": "okb", "sym": "OKB", "natName": "OKB", "dec": 18,
                     "logo": "https://assets.coingecko.com/asset_platforms/images/238/standard/x_logo.jpeg" },
         "polygon-zkevm": { "name": "Polygon zkEVM", "id": "ethereum", "sym": "ETH", "natName": "Ethereum", "dec": 18,
                     "logo": "https://assets.coingecko.com/asset_platforms/images/122/standard/polygonzkevm.jpg" },
-        "zksync": { "name": "ZKsync", "id": "ethereum", "sym": "ETH", "natName": "Ethereum", "dec": 18,
-                    "logo": "https://assets.coingecko.com/asset_platforms/images/121/standard/zksync.jpeg" },
+        "zora-network": { "name": "Zora", "id": "ethereum", "sym": "ETH", "natName": "Ethereum", "dec": 18,
+                    "logo": "https://assets.coingecko.com/asset_platforms/images/196/standard/zora.jpeg" },
         "zetachain": { "name": "ZetaChain", "id": "zetachain", "sym": "ZETA", "natName": "ZetaChain", "dec": 18,
-                    "logo": "https://assets.coingecko.com/asset_platforms/images/178/standard/zeta.jpeg" }
+                    "logo": "https://assets.coingecko.com/asset_platforms/images/178/standard/zeta.jpeg" },
+        "zksync": { "name": "ZKsync", "id": "ethereum", "sym": "ETH", "natName": "Ethereum", "dec": 18,
+                    "logo": "https://assets.coingecko.com/asset_platforms/images/121/standard/zksync.jpeg" }
+        
       }
     },
     "bitcoin": {

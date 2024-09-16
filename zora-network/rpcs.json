@@ -1,7 +1,7 @@
 {
   "query": {
       "decimals": {
-          "id": 43114,
+          "id": 7777777,
           "jsonrpc": "2.0",
           "method": "eth_call",
           "params": [
@@ -13,7 +13,7 @@
           ]
       },
       "name": {
-          "id": 43114,
+          "id": 7777777,
           "jsonrpc": "2.0",
           "method": "eth_call",
           "params": [
@@ -25,7 +25,7 @@
           ]
       },
       "nativeBal": {
-          "id": 43114,
+          "id": 7777777,
           "jsonrpc": "2.0",
           "method": "eth_getBalance",
           "params": [
@@ -34,7 +34,7 @@
           ]
       },
       "symbol": {
-          "id": 43114,
+          "id": 7777777,
           "jsonrpc": "2.0",
           "method": "eth_call",
           "params": [
@@ -46,7 +46,7 @@
           ]
       },
       "tokenBal": {
-          "id": 43114,
+          "id": 7777777,
           "jsonrpc": "2.0",
           "method": "eth_call",
           "params": [
@@ -68,16 +68,8 @@
       "payload": null
   },
   "rpcs": [
-      "https://43114.rpc.thirdweb.com",
-      "https://avalanche-c-chain-rpc.publicnode.com",
-      "https://1rpc.io/avax/c",
-      "https://rpc.ankr.com/avalanche",
-      "https://avalanche.public-rpc.com",
-      "https://api.avax.network/ext/bc/C/rpc",
-      "https://ava-mainnet.public.blastapi.io/ext/bc/C/rpc",
-      "https://blastapi.io/public-api/avalanche",
-      "https://avalanche.blockpi.network/v1/rpc/public",
-      "https://avalanche.api.onfinality.io/public/ext/bc/C/rpc",
-      "https://endpoints.omniatech.io/v1/avax/mainnet/public"
+      "https://7777777.rpc.thirdweb.com",
+      "https://rpc.zora.energy/",
+      "https://zora.drpc.org"
   ]
 }

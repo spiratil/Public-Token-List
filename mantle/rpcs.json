@@ -1,5 +1,79 @@
 {
-  "query": {},
-  "options": {},
-  "rpcs": []
+  "query": {
+      "decimals": {
+          "id": 5000,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+              {
+                  "to": null,
+                  "data": "0x313ce567000000000000000000000000"
+              },
+              "latest"
+          ]
+      },
+      "name": {
+          "id": 5000,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+              {
+                  "to": null,
+                  "data": "0x06fdde03000000000000000000000000"
+              },
+              "latest"
+          ]
+      },
+      "nativeBal": {
+          "id": 5000,
+          "jsonrpc": "2.0",
+          "method": "eth_getBalance",
+          "params": [
+              null,
+              "latest"
+          ]
+      },
+      "symbol": {
+          "id": 5000,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+              {
+                  "to": null,
+                  "data": "0x95d89b41000000000000000000000000"
+              },
+              "latest"
+          ]
+      },
+      "tokenBal": {
+          "id": 5000,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+              {
+                  "to": null,
+                  "data": "0x70a08231000000000000000000000000"
+              },
+              "latest"
+          ]
+      }
+  },
+  "options": {
+      "method": "POST",
+      "headers": {
+          "accept": "application/json",
+          "content-type": "application/json"
+      },
+      "contentType": "application/json",
+      "payload": null
+  },
+  "rpcs": [
+      "https://5000.rpc.thirdweb.com",
+      "https://mantle.drpc.org",
+      "https://mantle-rpc.publicnode.com",
+      "https://rpc.mantle.xyz",
+      "https://rpc.ankr.com/mantle",
+      "https://1rpc.io/mantle",
+      "https://mantle.api.onfinality.io/public"
+  ]
 }

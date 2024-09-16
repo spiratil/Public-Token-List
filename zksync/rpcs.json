@@ -1,5 +1,80 @@
 {
-  "query": {},
-  "options": {},
-  "rpcs": []
+  "query": {
+      "decimals": {
+          "id": 324,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+              {
+                  "to": null,
+                  "data": "0x313ce567000000000000000000000000"
+              },
+              "latest"
+          ]
+      },
+      "name": {
+          "id": 324,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+              {
+                  "to": null,
+                  "data": "0x06fdde03000000000000000000000000"
+              },
+              "latest"
+          ]
+      },
+      "nativeBal": {
+          "id": 324,
+          "jsonrpc": "2.0",
+          "method": "eth_getBalance",
+          "params": [
+              null,
+              "latest"
+          ]
+      },
+      "symbol": {
+          "id": 324,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+              {
+                  "to": null,
+                  "data": "0x95d89b41000000000000000000000000"
+              },
+              "latest"
+          ]
+      },
+      "tokenBal": {
+          "id": 324,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+              {
+                  "to": null,
+                  "data": "0x70a08231000000000000000000000000"
+              },
+              "latest"
+          ]
+      }
+  },
+  "options": {
+      "method": "POST",
+      "headers": {
+          "accept": "application/json",
+          "content-type": "application/json"
+      },
+      "contentType": "application/json",
+      "payload": null
+  },
+  "rpcs": [
+      "https://324.rpc.thirdweb.com",
+      "https://mainnet.era.zksync.io",
+      "https://zksync.drpc.org",
+      "https://zksync-era.blockpi.network/v1/rpc/public",
+      "https://go.getblock.io/f76c09905def4618a34946bf71851542",
+      "https://zksync.meowrpc.com",
+      "https://1rpc.io/zksync2-era",
+      "https://endpoints.omniatech.io/v1/zksync-era/mainnet/public"
+  ]
 }
